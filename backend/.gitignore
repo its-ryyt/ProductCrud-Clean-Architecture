@@ -1,0 +1,14 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+.vs/
+.vscode/
+.idea/
+*.log
+TestResults/
+coverage/
+publish/
+appsettings.*.local.json

@@ -1,0 +1,85 @@
+# =========================================================
+# ProductCrud – Root .gitignore
+# Frontend rules live in frontend/.gitignore
+# =========================================================
+
+# ---------------------------------------------------------
+# OS / Editor
+# ---------------------------------------------------------
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.swp
+*.swo
+*~
+
+# VS Code (keep shared settings)
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# =========================================================
+# BACKEND (.NET 8 / ASP.NET Core / EF Core)
+# =========================================================
+
+# Build output
+backend/**/[Bb]in/
+backend/**/[Oo]bj/
+backend/**/[Dd]ebug/
+backend/**/[Rr]elease/
+backend/**/x64/
+backend/**/x86/
+backend/**/[Ll]og/
+backend/**/[Ll]ogs/
+backend/**/publish/
+backend/**/artifacts/
+
+# Visual Studio
+.vs/
+backend/.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+
+# Test results / coverage
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+
+# Local secrets / machine-specific settings
+appsettings.Local.json
+appsettings.*.Local.json
+*.pfx
+*.publishsettings
+secrets.json
+
+# Local databases
+*.mdf
+*.ldf
+*.ndf
+
+# Log files
+*.log
